@@ -3,7 +3,7 @@
 namespace Lab_3_3
 {
 
-    class Mass
+    public class Mass
     {
         protected Stopwatch stopWatch = new Stopwatch(); // Переменная для посчёта времяни.
         private static Random Rnd = new Random(); // Переменная для посчёта рандомного массива.
@@ -37,7 +37,7 @@ namespace Lab_3_3
         }        
     }
 
-    class Mass1 : Mass // Сортировка пузырьковым методом.
+    public class Mass1 : Mass // Сортировка пузырьковым методом.
     {
         private void Mas(int[] mas)
         {
@@ -64,7 +64,7 @@ namespace Lab_3_3
         }
     }
 
-    class Mass2 : Mass // Сортировка выбором.
+    public class Mass2 : Mass // Сортировка выбором.
     {
         int Max = int.MaxValue, ix = 0;
         private void Mas(int[] mas)
@@ -96,7 +96,7 @@ namespace Lab_3_3
         }
     }
 
-    class Mass3 : Mass // Сортировка перемешиванием (шейкерная сортировка).
+    public class Mass3 : Mass // Сортировка перемешиванием (шейкерная сортировка).
     {
         private void Mas(int[] mas)
         {
@@ -134,7 +134,7 @@ namespace Lab_3_3
         }
     }
 
-    class Mass4 : Mass // Сортировка расчёской.
+    public class Mass4 : Mass // Сортировка расчёской.
     {
         private void Mas(int[] mas)
         {
@@ -170,7 +170,7 @@ namespace Lab_3_3
         }
     }
 
-    class Mass5 : Mass // Сортировка пузырьковым методом.
+    public class Mass5 : Mass // Сортировка пузырьковым методом.
     {
         private void Mas(int[] mas)
         {
@@ -196,7 +196,7 @@ namespace Lab_3_3
         }
     }
 
-    class Program
+    public class Program
     {
         static void Main() // Основной метод.
         {
