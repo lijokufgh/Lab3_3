@@ -5,8 +5,8 @@ namespace Lab_3_3
 
     public class Mass
     {
-        protected Stopwatch stopWatch = new Stopwatch(); // Переменная для посчёта времяни.
-        private static Random Rnd = new Random(); // Переменная для посчёта рандомного массива.
+        protected Stopwatch stopWatch = new Stopwatch(); // Переменная для подсчёта времени.
+        private static Random Rnd = new Random(); // Переменная для подсчёта рандомного массива.
         private static int[] mas = new int[10]; // Статический массив.
         protected int swap; // Переменная для смены переменных.
         protected static int dlin = mas.Length; // Статическая длина массива.
@@ -32,7 +32,7 @@ namespace Lab_3_3
             Console.Write("Отсортированный массив: ");
             Vod(qwe);
             Console.Write("Скорость выполнения: ");
-            Console.Write(stopWatch.Elapsed); // Подсчёт затраченого времяни на выполнения сортировки.
+            Console.Write(stopWatch.Elapsed); // Подсчёт затраченного времени на выполнения сортировки.
             Console.WriteLine("\n");
         }        
     }
