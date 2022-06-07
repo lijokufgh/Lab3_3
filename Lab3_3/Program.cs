@@ -200,11 +200,12 @@ namespace Lab_3_3
     {
         static void Main() // Основной метод.
         {
-            Mass1 mass1 = new Mass1(Mass.Zapoln1());
-            Mass2 mass2 = new Mass2(Mass.Zapoln1());
-            Mass3 mass3 = new Mass3(Mass.Zapoln1());
-            Mass4 mass4 = new Mass4(Mass.Zapoln1());
-            Mass5 mass5 = new Mass5(Mass.Zapoln1());
+            int[] qwe = Mass.Zapoln1(); // Переменная в которую передается основной массив, чтобы во всех сортировки он был одним и тем же.
+            Mass1 mass1 = new Mass1(qwe);
+            Mass2 mass2 = new Mass2(qwe);
+            Mass3 mass3 = new Mass3(qwe);
+            Mass4 mass4 = new Mass4(qwe);
+            Mass5 mass5 = new Mass5(qwe);
         }
     }
 
